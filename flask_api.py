@@ -100,7 +100,7 @@ if __name__ == '__main__':
     try:
         port = int(sys.argv[1])
     except Exception as e:
-        port = 80
+        port = 9999
 
     try:
         clf = joblib.load(model_file_name)
